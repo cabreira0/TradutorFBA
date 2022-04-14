@@ -1,0 +1,144 @@
+:root {
+    --white-color: #ffffff;
+    --black-color: #0A0A14;
+    --black-color-header: #171722;
+    --black-color-1: #14141E;
+    --black-color-2: #1E1E28;
+    --black-color-3: #282832;
+    --black-color-4: #32323C;
+    --black-color-5: #3b3b42;
+    --red-color: #bb1732;
+}
+
+* {
+    margin: 0;
+    color: inherit;
+}
+
+header {
+    background: var(--black-color-header);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid var(--black-color);
+}
+
+#modalInvisivel {
+    display: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+#modalConteudo {
+    border-radius: 25px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 500px;
+    height: 550px;
+    margin: auto;
+    border: 2px solid var(--black-color);
+    background-color: var(--black-color-1);
+}
+
+.modalTexto {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+}
+
+.icone {
+    display: flex;
+    transition: 0.15s;
+}
+
+.icone:hover {
+    transform: scale(1.1);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--black-color-1);
+    color: var(--white-color);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titulo {
+    padding: 5px;
+}
+
+#textoExplicativo {
+    padding: 25px;
+    text-align: center;
+    max-width: 50%;
+}
+
+.alexsandro {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    background: none;
+    border: none;
+}
+
+.alexsandro:hover {
+    cursor: pointer;
+}
+
+.caixaDeTexto {
+    height: 170px;
+    width: 500px;
+    resize: none;
+    text-align: center;
+    border-radius: 22px;
+    background-color: var(--black-color-3);
+    color: var(--white-color);
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.caixaDeTexto:focus {
+    outline-style: solid;
+    outline-width: 3px;
+}
+
+.botaoTraduzir {
+    height: 125px;
+    width: 350px;
+    border-radius: 22px;
+    background-color: var(--black-color-3);
+    color: var(--white-color);
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    transition-duration: 0.4s;
+    border: none;
+}
+
+.botaoTraduzir:hover {
+    background-color: var(--black-color-4);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.botaoTraduzir:active {
+    background-color: var(--black-color-5);
+}
+
+#conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    gap: 22px;
+}

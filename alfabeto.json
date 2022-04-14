@@ -1,0 +1,33 @@
+{
+    "alfabeto": [
+        { "chave": "a", "valor": "æ" },
+        { "chave": "b", "valor": "þ" },
+        { "chave": "c", "valor": "čəh" },
+        { "chave": "d", "valor": "đęh" },
+        { "chave": "e", "valor": "ē" },
+        { "chave": "f", "valor": "fēh" },
+        { "chave": "g", "valor": "gë" },
+        { "chave": "h", "valor": "hh" },
+        { "chave": "i", "valor": "įÌ" },
+        { "chave": "j", "valor": "jə" },
+        { "chave": "k", "valor": "ķæ" },
+        { "chave": "l", "valor": "lē" },
+        { "chave": "m", "valor": "mê" },
+        { "chave": "n", "valor": "ńě" },
+        { "chave": "o", "valor": "ō" },
+        { "chave": "p", "valor": "pë" },
+        { "chave": "q", "valor": "qè" },
+        { "chave": "r", "valor": "r" },
+        { "chave": "ss", "valor": "§" },
+        { "chave": "s", "valor": "ß" },
+        { "chave": "t", "valor": "t" },
+        { "chave": "u", "valor": "ū" },
+        { "chave": "v", "valor": "vé" },
+        { "chave": "w", "valor": "w" },
+        { "chave": "x", "valor": "xī§" },
+        { "chave": "y", "valor": "¥pß" },
+        { "chave": "z", "valor": "żê" }
+    ],
+
+    "teste": ["oi"]
+}
