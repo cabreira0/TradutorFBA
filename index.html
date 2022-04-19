@@ -9,7 +9,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <script src="script.js"></script>
     <title>Tradutor FBA</title>
 </head>
 
@@ -33,13 +32,11 @@
 
     <div id="modalInvisivel" class="modal">
         <div id="modalConteudo">
-            <p class="modalTexto">Site criado em pouco menos de uma semana por pura brincadeira para o grupo da FBA.
-                <p class="modalTexto">um grande abraço para: ninguem</p>
-            </p>
+            <p class="modalTexto">Site criado em pouco menos de uma semana por pura brincadeira para o grupo da FBA. </p>
+            <p class="modalTexto">Selecione aqui o nivel de FBA'isse que o senhor deseja:</p>
+
         </div>
     </div>
-
-
 
     <div id="textoExplicativo">
         <p>A linguagem da FBA foi se tornando cada vez mais concreta durante o período pós quarentena, ao término das atividades robloxianas.
@@ -54,11 +51,30 @@
 
         </p>
     </div>
+    dialeto a ser utilizado:
+    <form action="" class="dialetoForm" id="dialetoForm">
+        <div>
+            <input type="radio" name="dialeto" value="cabreira">cabreira
+        </div>
+        <div>
+            <input type="radio" name="dialeto" value="leonxzv">leonxzv
+        </div>
+        <div>
+            <input type="radio" name="dialeto" value="smiley">smiley
+        </div>
+    </form>
+    <script src="script.js"></script>
 
     <div id="conteudo">
+
         <textarea type="text" class="caixaDeTexto" id="textoPraTraduzir" placeholder="Digite aqui seu texto que você quer que seja traduzido para a FBA'ish" required></textarea>
         <button onclick="traduzirTexto()" class="botaoTraduzir" type="submit">Traduzir</button>
         <textarea type="text" class="caixaDeTexto" id="textoTraduzido" readonly></textarea>
+
+
+        <!-- <div class="fbaisse">
+            <input type="range" id="fbaisse" name="fbaisse" min="0" max="100" value="100">
+        </div> -->
     </div>
 
     <script src="https://unpkg.com/@popperjs/core@2"></script>
@@ -72,6 +88,7 @@
 
         })
     </script>
+
     <script src="modal.js"></script>
 </body>
 

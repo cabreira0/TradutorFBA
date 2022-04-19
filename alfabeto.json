@@ -1,5 +1,5 @@
 {
-    "alfabeto": [
+    "leonxzv": [
         { "chave": "a", "valor": "æ" },
         { "chave": "b", "valor": "þ" },
         { "chave": "c", "valor": "čəh" },
@@ -28,6 +28,33 @@
         { "chave": "y", "valor": "¥pß" },
         { "chave": "z", "valor": "żê" }
     ],
+    "cabreira": [
+        { "chave": "a", "valor": "a" },
+        { "chave": "b", "valor": "b" },
+        { "chave": "c", "valor": "č" },
+        { "chave": "d", "valor": "đ" },
+        { "chave": "e", "valor": "ē" },
+        { "chave": "f", "valor": "f" },
+        { "chave": "g", "valor": "g" },
+        { "chave": "h", "valor": "h" },
+        { "chave": "i", "valor": "Ì" },
+        { "chave": "j", "valor": "j" },
+        { "chave": "k", "valor": "ķ" },
+        { "chave": "l", "valor": "l" },
+        { "chave": "m", "valor": "m" },
+        { "chave": "n", "valor": "ń" },
+        { "chave": "o", "valor": "ō" },
+        { "chave": "p", "valor": "p" },
+        { "chave": "q", "valor": "q" },
+        { "chave": "r", "valor": "r" },
+        { "chave": "s", "valor": "ß" },
+        { "chave": "t", "valor": "t" },
+        { "chave": "u", "valor": "ū" },
+        { "chave": "v", "valor": "v" },
+        { "chave": "w", "valor": "w" },
+        { "chave": "x", "valor": "x§" },
+        { "chave": "y", "valor": "¥" },
+        { "chave": "z", "valor": "ż" }
+    ]
 
-    "teste": ["oi"]
 }
